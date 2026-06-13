@@ -2,6 +2,8 @@
 
 Custom extensions for [pi](https://github.com/earendil-works/pi-coding-agent).
 
+> ⚠️ These extensions are 100% vibe coded.
+
 ## Extensions
 
 ### web-fetch
