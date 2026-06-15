@@ -17,6 +17,15 @@ npm install
 npx playwright install chromium
 ```
 
+### flux-image
+A `generate_image` tool that generates and edits images with
+[Black Forest Labs FLUX](https://docs.bfl.ml) models. Requires a `BFL_API_KEY`
+environment variable (get one at <https://dashboard.bfl.ai/>).
+
+```bash
+export BFL_API_KEY="your-api-key-here"
+```
+
 ### exit-alias
 Registers an `/exit` command as an alias for `/quit`.
 
@@ -26,5 +35,6 @@ Symlink each extension into pi's extensions directory:
 
 ```bash
 ln -s "$PWD/web-fetch"        ~/.pi/agent/extensions/web-fetch
+ln -s "$PWD/flux-image"       ~/.pi/agent/extensions/flux-image
 ln -s "$PWD/exit-alias/index.ts" ~/.pi/agent/extensions/exit-alias.ts
 ```

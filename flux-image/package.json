@@ -1,0 +1,9 @@
+{
+  "name": "pi-flux-image",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Image generation and editing with Black Forest Labs FLUX models for pi",
+  "pi": {
+    "extensions": ["./index.ts"]
+  }
+}
