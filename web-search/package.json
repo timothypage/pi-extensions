@@ -1,0 +1,9 @@
+{
+  "name": "pi-web-search",
+  "version": "1.0.0",
+  "private": true,
+  "description": "web_search tool for pi powered by the Kagi Search API",
+  "pi": {
+    "extensions": ["./index.ts"]
+  }
+}
